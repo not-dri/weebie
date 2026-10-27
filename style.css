@@ -1,7 +1,7 @@
 body {
   margin: 0;
   color: #162d4f;
-  background: linear-gradient(#e6f4ff, #ffffff);
+  background: linear-gradient(#a1cff1, #ffffff);
   font-family: "Libre Caslon Text", Georgia, serif;
 }
 
@@ -11,7 +11,7 @@ h1 {
 }
 
 .tagline {
-  color: #df5034;
+  color: #f59221;
 }
 
 .hero {

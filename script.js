@@ -3,11 +3,11 @@ const button = document.querySelector("#shake");
 const message = document.querySelector("#message");
 
 const messages = [
-  "you are someone's favourite person to sit next to.",
-  "the thing you are building counts, even half finished.",
-  "you are allowed to be a beginner for as long as you need.",
-  "someone is going to love what you make with this.",
-  "hot chocolate tastes better after a hard day. you've earned one.",
+  "Don't go being all discombobulated today; you've got this handled.",
+  "You're doing great. Please ignore the gobbledygook and keep shining.",
+  "If cauliflower can become pizza, you can do absolutely anything.",
+  "You better not forget how amazing you are, or I will remind you Personally.",
+  "Remember, you are unique—just like everybody else",
   "you ask good questions. that is the whole skill.",
 ];
 
@@ -17,4 +17,4 @@ button.addEventListener("click", () => {
 
   const pick = Math.floor(Math.random() * messages.length);
   message.textContent = messages[pick];
-});
+}); 
